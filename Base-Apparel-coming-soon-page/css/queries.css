@@ -1,0 +1,108 @@
+/***********************/
+/*     over 480px     */
+/***********************/
+@media only screen and (min-width: 30em) {
+  /* Img-section */
+  .img-section {
+    height: 30rem;
+  }
+
+  .text-section {
+    padding: 6rem 4rem;
+  }
+}
+
+/***********************/
+/*     over 640px     */
+/***********************/
+@media only screen and (min-width: 40em) {
+  /* Img-section */
+  .img-section {
+    height: 40rem;
+  }
+
+  .text-section {
+    padding: 6 10rem 6rem;
+  }
+}
+
+/***********************/
+/*     over 896px     */
+/***********************/
+@media only screen and (min-width: 56em) {
+  body {
+    background-image: url(../images/bg-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  main {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: "header img" "text img";
+  }
+
+  header {
+    grid-area: header;
+    padding-left: 5rem;
+    height: 20rem;
+  }
+
+  header img {
+    height: 4rem;
+  }
+
+  .img-section {
+    grid-area: img;
+    min-width: 100%;
+    min-height: 100%;
+    background: url(../images/hero-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .text-section {
+    padding: 0 5rem 6rem;
+    grid-area: text;
+    text-align: left;
+
+    gap: 5rem;
+  }
+
+  h1 {
+    width: 100%;
+    font-size: 8rem;
+  }
+}
+
+/***********************/
+/*     over 1120px     */
+/***********************/
+@media only screen and (min-width: 70em) {
+  header {
+    padding-left: 10rem;
+  }
+
+  .text-section {
+    margin-right: 9rem;
+  }
+
+  .text-section {
+    padding: 0 10rem 6rem;
+  }
+}
+
+/***********************/
+/* Footer media query  */
+/***********************/
+@media (max-width: 20em) {
+  footer {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .boxv {
+    display: none;
+  }
+}
