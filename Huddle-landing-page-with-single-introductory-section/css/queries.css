@@ -1,0 +1,107 @@
+/**********************/
+/*     over 480px     */
+/**********************/
+@media only screen and (min-width: 30em) {
+}
+
+/**********************/
+/*     over 688px     */
+/**********************/
+@media only screen and (min-width: 43em) {
+}
+
+/**********************/
+/*     over 928px     */
+/**********************/
+@media only screen and (min-width: 58em) {
+  /* General Styling */
+  body {
+    background: url(../images/bg-desktop.svg);
+    background-size: cover;
+    background-color: var(--violet);
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  /* Main */
+  main {
+    max-width: none;
+  }
+
+  /* header-section */
+  .header-section {
+    height: 20rem;
+  }
+
+  .header-section img {
+    width: 25rem;
+  }
+
+  /* hero-section */
+  .hero-section {
+    max-width: 125rem;
+    margin: 0 auto;
+    text-align: left;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .hero-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .hero-text {
+    padding: 0 4.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .hero-section p {
+    line-height: 1.7;
+  }
+
+  button {
+    height: 6rem;
+    font-size: 2rem;
+  }
+
+  /* footer-section */
+  .icon-box {
+    padding: 2rem;
+
+    justify-content: flex-end;
+  }
+}
+
+/***********************/
+/*     over 1120px     */
+/***********************/
+@media only screen and (min-width: 70em) {
+}
+
+/**********************/
+/* Very small screens */
+/*     under 368px    */
+/**********************/
+@media (max-width: 23em) {
+}
+
+/**********************/
+/* Footer media query */
+/**********************/
+@media (max-width: 23em) {
+  footer {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .boxv {
+    display: none;
+  }
+}

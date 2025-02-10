@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap");
+
+:root {
+  /* PRIMARY */
+  --violet: hsl(257, 40%, 49%);
+  --soft-magenta: hsl(300, 69%, 71%);
+  /* SECONDARY */
+  /* NEUTRAL */
+}
+
+/* General Styling */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1;
+  font-size: 1.7rem;
+  font-weight: 400;
+  color: #fff;
+  background: url(../images/bg-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: var(--violet);
+  min-width: 28rem;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0.05rem;
+  margin-bottom: 2rem;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Main */
+main {
+  min-height: calc(100vh - 5rem);
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+/* header-section */
+.header-section {
+  height: 8rem;
+  padding: 0 2rem;
+  margin-bottom: 4rem;
+
+  display: flex;
+  align-items: center;
+}
+
+.header-section img {
+  width: 15rem;
+}
+
+/* hero-section */
+.hero-section {
+  padding: 0 2rem;
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.hero-section img {
+  width: 100%;
+  margin-bottom: 6rem;
+}
+
+.hero-section p {
+  margin-bottom: 2rem;
+  line-height: 1.5;
+  letter-spacing: 0.04rem;
+}
+
+button {
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  height: 4rem;
+  width: 20rem;
+  margin: 1rem 0;
+  border-radius: 99rem;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  color: var(--violet);
+  box-shadow: 0 0.2rem 0.5rem #00000077;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--soft-magenta);
+  color: #fff;
+}
+
+button:active {
+  transform: translateY(0.2rem);
+  box-shadow: none;
+}
+
+/* footer-section */
+.icon-box {
+  height: 8rem;
+  gap: 2rem;
+}
+
+.icon-box a {
+  text-decoration: none;
+}
+
+.icon-box .icon {
+  height: 4rem;
+  width: 4rem;
+  border: 0.15rem solid #fff;
+  border-radius: 50%;
+  padding: 0.5rem;
+  color: #fff;
+  transition: all 0.2s ease;
+}
+
+.icon-box .icon:hover {
+  border-color: var(--soft-magenta);
+  color: var(--soft-magenta);
+}
+
+/* Footer */
+footer {
+  height: 5rem;
+  min-width: 17rem;
+  color: #fff;
+  background-color: transparent;
+  font-size: 1.3rem;
+  line-height: 1.3;
+
+  gap: 1rem;
+}
+
+.attribution {
+  font-size: 1.1rem;
+}
+
+.attribution a:link,
+.attribution a:visited {
+  color: #fff;
+  padding: 0.1rem;
+  text-decoration: none;
+}
+
+.attribution a:hover,
+.attribution a:active {
+  color: var(--soft-magenta);
+  border-bottom: 0.1rem solid var(--soft-magenta);
+}
