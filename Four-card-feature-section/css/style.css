@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+:root {
+  /* PRIMARY */
+  --red: hsl(0, 78%, 62%);
+  --cyan: hsl(180, 62%, 55%);
+  --orange: hsl(34, 97%, 64%);
+  --blue: hsl(212, 86%, 64%);
+  /* NEUTRAL */
+  --very-dark-blue: hsl(234, 12%, 34%);
+  --grayish-blue: hsl(229, 6%, 66%);
+  --very-light-gray: hsl(0, 0%, 98%);
+}
+
+/* General Styling */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--very-dark-blue);
+  background-color: var(--very-light-gray);
+  min-width: 28rem;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Main */
+main {
+  min-height: calc(100vh - 5rem);
+  padding: 2rem;
+  position: relative;
+
+  flex-direction: column;
+  gap: 4rem;
+}
+
+/* Title Section */
+.title-section {
+  text-align: center;
+  max-width: 50rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.main-title {
+  font-size: 3.6rem;
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.main-subtitle {
+  font-size: 3.6rem;
+  font-weight: 200;
+  margin: 0;
+}
+
+.main-text {
+  color: var(--grayish-blue);
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+/* Card Section */
+.card-section {
+  max-width: 105rem;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  gap: 3rem;
+}
+
+.card {
+  overflow: hidden;
+  background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 1rem 1.5rem #0052af22;
+}
+
+.supervisor {
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+}
+
+.team-builder {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+.karma {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+.calculator {
+  grid-column: -2 / -1;
+  grid-row: 1 / 3;
+}
+
+.supervisor .card-color {
+  height: 0.4rem;
+  background-color: var(--cyan);
+}
+
+.team-builder .card-color {
+  height: 0.4rem;
+  background-color: var(--red);
+}
+
+.karma .card-color {
+  height: 0.4rem;
+  background-color: var(--orange);
+}
+
+.calculator .card-color {
+  height: 0.4rem;
+  background-color: var(--blue);
+}
+
+.card-inner {
+  padding: 3rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.card-title {
+  margin-bottom: 1.5rem;
+}
+
+.card-text {
+  line-height: 1.5;
+  font-size: 1.2rem;
+  color: var(--grayish-blue);
+  margin-bottom: 4rem;
+}
+
+.card-img {
+  align-self: flex-end;
+}
+
+/* Footer */
+footer {
+  height: 5rem;
+  min-width: 17rem;
+  color: var(--grayish-blue);
+  background-color: transparent;
+  font-size: 1.3rem;
+  line-height: 1.3;
+
+  gap: 1rem;
+}
+
+.attribution {
+  font-size: 1.1rem;
+}
+
+.attribution a:link,
+.attribution a:visited {
+  color: var(--very-dark-blue);
+  padding: 0.1rem;
+  text-decoration: none;
+}
+
+.attribution a:hover,
+.attribution a:active {
+  border-bottom: 0.1rem solid var(--very-dark-blue);
+}
