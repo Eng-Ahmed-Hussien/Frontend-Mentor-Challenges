@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/product-preview-card-component-XTR5W0Y4SN](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa)
-- Live Site URL: [https://josh76543210-fm-product-component.netlify.app/](https://josh76543210-fm-product-component.netlify.app/)
+- Solution URL: [https://github.com/Eng-Ahmed-Hussien/Frontend-Mentor-Challenges/tree/main/Product-preview-card-component](https://github.com/Eng-Ahmed-Hussien/Frontend-Mentor-Challenges/tree/main/Product-preview-card-component)
+- Live Site URL: [https://eng-ahmed-hussien.github.io/Frontend-Mentor-Challenges/QR-code-component/](https://eng-ahmed-hussien.github.io/Frontend-Mentor-Challenges/Product-preview-card-component)
 
 ## My process
 
