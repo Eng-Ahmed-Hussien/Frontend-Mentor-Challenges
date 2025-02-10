@@ -1,0 +1,57 @@
+/**********************/
+/*     over 368px     */
+/**********************/
+@media (min-width: 23em) {
+  footer {
+    flex-direction: row;
+    gap: calc((10 / 16) * 1rem);
+  }
+
+  .boxv {
+    display: inline;
+  }
+}
+
+/**********************/
+/*     over 480px     */
+/**********************/
+@media only screen and (min-width: 30em) {
+}
+
+/**********************/
+/*     over 600px     */
+/**********************/
+@media only screen and (min-width: 37.5em) {
+  /* Main */
+  .advice {
+    padding: calc((40 / 16) * 1rem);
+  }
+
+  .advice__text {
+    font-size: calc((28 / 16) * 1rem);
+    line-height: 1.6;
+    margin-bottom: calc((35 / 16) * 1rem);
+  }
+
+  .advice__divider {
+    content: url(../images/pattern-divider-desktop.svg);
+  }
+}
+
+/**********************/
+/*     over 800px     */
+/**********************/
+@media only screen and (min-width: 50em) {
+}
+
+/***********************/
+/*     over 960px     */
+/***********************/
+@media only screen and (min-width: 60em) {
+}
+
+/***********************/
+/*     over 1120px     */
+/***********************/
+@media only screen and (min-width: 70em) {
+}
