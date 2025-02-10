@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/Eng-Ahmed-Hussien/Frontend-Mentor-Challenges/tree/main/Product-preview-card-component](https://github.com/Eng-Ahmed-Hussien/Frontend-Mentor-Challenges/tree/main/NFT-preview-card-component-solution)
-- Live Site URL: [https://eng-ahmed-hussien.github.io/Frontend-Mentor-Challenges/Product-preview-card-component](https://eng-ahmed-hussien.github.io/Frontend-Mentor-Challenges/NFT-preview-card-component-solution)
+- Solution URL: [https://github.com/Eng-Ahmed-Hussien/Frontend-Mentor-Challenges/tree/main/Product-preview-card-component](https://github.com/Eng-Ahmed-Hussien/Frontend-Mentor-Challenges/tree/main/NFT-preview-card-component)
+- Live Site URL: [https://eng-ahmed-hussien.github.io/Frontend-Mentor-Challenges/Product-preview-card-component](https://eng-ahmed-hussien.github.io/Frontend-Mentor-Challenges/NFT-preview-card-component)
 
 ## My process
 
