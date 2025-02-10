@@ -1,0 +1,135 @@
+/**********************/
+/*     over 480px     */
+/**********************/
+@media only screen and (min-width: 30em) {
+  /* Header */
+  header nav {
+    display: block;
+  }
+
+  header nav ul {
+    list-style-type: none;
+
+    display: flex;
+    gap: 2rem;
+  }
+
+  header nav ul a:link,
+  header nav ul a:visited {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  header nav ul a:hover,
+  header nav ul a:active {
+    color: var(--soft-red);
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  /* hero-section */
+  .hero-img {
+    content: url(../images/image-web-3-desktop.jpg);
+  }
+}
+
+/**********************/
+/*     over 640px     */
+/**********************/
+@media only screen and (min-width: 43em) {
+}
+
+/**********************/
+/*     over 928px     */
+/**********************/
+@media only screen and (min-width: 58em) {
+}
+
+/***********************/
+/*     over 1120px     */
+/***********************/
+@media only screen and (min-width: 70em) {
+  /* Header */
+  header {
+    max-width: 120rem;
+    height: 15rem;
+    margin: auto;
+  }
+
+  .logo {
+    height: 4.5rem;
+  }
+
+  header nav ul {
+    font-size: 2rem;
+
+    gap: 4rem;
+  }
+
+  /* Main */
+  main {
+    max-width: 120rem;
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 3rem;
+    grid-template-rows: 55rem 12rem;
+  }
+
+  /* hero-section */
+  .hero-text {
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  h1 {
+    font-size: 6rem;
+    margin-bottom: none;
+    margin-right: 5rem;
+  }
+
+  .text-content p {
+    margin-bottom: none;
+    font-size: 1.8rem;
+  }
+
+  /* new-section */
+  .new-section h2 {
+    font-size: 4rem;
+  }
+
+  .new-section h3 {
+    font-size: 2.2rem;
+  }
+
+  /* top-section */
+  .top-section {
+    grid-column: 1 / -1;
+
+    flex-direction: row;
+  }
+}
+
+/**********************/
+/* Very small screens */
+/*     under 368px    */
+/**********************/
+@media (max-width: 23em) {
+}
+
+/**********************/
+/* Footer media query */
+/**********************/
+@media (max-width: 23em) {
+  footer {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .boxv {
+    display: none;
+  }
+}
