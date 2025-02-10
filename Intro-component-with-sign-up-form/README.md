@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/Eng-Ahmed-Hussien/Frontend-Mentor-Challenges/tree/main/Base-Apparel-coming-soon-page](https://github.com/Eng-Ahmed-Hussien/Frontend-Mentor-Challenges/tree/main/Base-Apparel-coming-soon-page)
-- Live Site URL: [https://eng-ahmed-hussien.github.io/Frontend-Mentor-Challenges/Base-Apparel-coming-soon-page/](https://eng-ahmed-hussien.github.io/Frontend-Mentor-Challenges/Base-Apparel-coming-soon-page/)
+- Solution URL: [https://github.com/Eng-Ahmed-Hussien/Frontend-Mentor-Challenges/tree/main/Intro-component-with-sign-up-form](https://github.com/Eng-Ahmed-Hussien/Frontend-Mentor-Challenges/tree/main/Intro-component-with-sign-up-form)
+- Live Site URL: [https://eng-ahmed-hussien.github.io/Frontend-Mentor-Challenges/Intro-component-with-sign-up-form/](https://eng-ahmed-hussien.github.io/Frontend-Mentor-Challenges/Intro-component-with-sign-up-form/)
 
 ## My process
 
