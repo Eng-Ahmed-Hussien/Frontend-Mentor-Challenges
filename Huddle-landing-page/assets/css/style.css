@@ -1,0 +1,319 @@
+/* ==========================================================================
+   GENERAL STYLING
+   ========================================================================== */
+
+/* Color & Shadow Variables */
+:root {
+  /* PRIMARY */
+  --pink: hsl(322, 100%, 66%);
+  /* NEUTRAL */
+  --white: hsl(0, 0%, 100%);
+  --very-pale-cyan: hsl(193, 100%, 96%);
+  --very-dark-cyan: hsl(192, 100%, 9%);
+  --grayish-blue: hsl(208, 11%, 55%);
+  /* Shadows */
+  --shadow: hsla(209, 11%, 55%, 0.255);
+  --shadow-dark: hsla(209, 11%, 55%, 0.458);
+}
+
+/* Reset & Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: calc((18 / 16) * 1rem);
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--very-dark-cyan);
+  background-color: var(--white);
+}
+
+/* ==========================================================================
+   SECTION 1: HERO / HEADER & INTRO
+   ========================================================================== */
+
+/* Hero Section */
+.section-1 {
+  background: url(../images/bg-hero-mobile.svg) center/cover no-repeat;
+  background-color: var(--very-pale-cyan);
+  margin-bottom: 2em;
+}
+
+.section1__wrapper {
+  padding: 1.5em 1.5em 2em;
+}
+
+/* Header */
+header .header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header-wrapper .logo-image {
+  width: 100px;
+}
+
+.header-wrapper .header-link {
+  display: block;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.8rem;
+  color: var(--very-dark-cyan);
+  background-color: var(--white);
+  padding: 0.5em 2.5em;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 25px;
+}
+
+.header-wrapper .header-link:hover {
+  color: hsla(192, 100%, 9%, 0.5);
+  background-color: hsla(0, 0%, 100%, 0.8);
+}
+
+/* Global Button-like (CTA) Styles */
+/* (Note: specificity may cause overrides in more specific contexts) */
+.header-link,
+.cta {
+  font-size: 0.9rem;
+  padding: 4rem;
+}
+
+/* Intro Text */
+.text-head {
+  font-family: "Poppins", sans-serif;
+}
+
+.text-side {
+  padding: 4em 0 2em;
+  text-align: center;
+  color: var(--very-dark-cyan);
+}
+
+.text-side .text-desc {
+  padding: 2em 0;
+}
+
+/* Call-to-Action Button in Intro */
+.cta-box {
+  text-align: center;
+}
+
+.text-side .cta {
+  display: block;
+  max-width: 17rem;
+  margin: 0 auto;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--white);
+  background-color: var(--pink);
+  padding: 0.7em 4em;
+  border-radius: 25px;
+}
+
+.text-side .cta:hover {
+  color: hsla(0, 0%, 100%, 0.8);
+  background-color: hsla(322, 100%, 66%, 0.7);
+}
+
+/* Image Side (if any) */
+.image-side {
+  padding: 2.5em 0;
+}
+
+/* ==========================================================================
+   SECTION 2: FEATURES / ARTICLES & CALL TO ACTION
+   ========================================================================== */
+
+/* Section Container */
+.section-two {
+  position: relative;
+  padding: 2em 0 14em;
+}
+
+/* Grid Layout */
+.section-two-grid {
+  display: grid;
+  gap: 2em;
+  margin: 0 1.5em;
+}
+
+/* Article Cards */
+.section-two article {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #eeeeee;
+}
+
+/* Article Inner Section */
+.section-two article section {
+  display: grid;
+  place-content: center;
+  height: fit-content;
+}
+
+.section-two article section h2 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.section-two article section p {
+  font-size: 0.83rem;
+  color: var(--grayish-blue);
+}
+
+/* Images in Section */
+.section-two img {
+  width: 80vw;
+  margin-bottom: 3rem;
+}
+
+/* Centered Content Wrapper */
+.ctvbox {
+  display: flex;
+  justify-content: center;
+}
+
+/* Call-to-Action Box */
+.call-to-action {
+  position: absolute;
+  bottom: -3em;
+  margin: 0 1em;
+  padding: 2em 1em;
+  background: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  font-family: "Poppins", sans-serif;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
+
+.call-to-action h2 {
+  font-size: 1.3rem;
+  text-align: center;
+  font-weight: 600;
+  color: var(--very-dark-cyan);
+}
+
+.call-to-action button {
+  padding: 1em 3em;
+  font-size: 0.8rem;
+  font-weight: 500;
+  background-color: var(--pink);
+  color: var(--white);
+  border: none;
+  border-radius: 35px;
+  cursor: pointer;
+  box-shadow: -3px 3px var(--shadow);
+}
+
+.call-to-action button:hover,
+.call-to-action button:active {
+  opacity: 0.85;
+  box-shadow: -3px 3px var(--shadow-dark);
+}
+
+/* ==========================================================================
+   SECTION 3: FOOTER
+   ========================================================================== */
+
+footer {
+  background-color: var(--very-dark-cyan);
+  color: var(--white);
+  padding: calc((140 / 16) * 1rem) calc((20 / 16) * 1rem) calc((50 / 16) * 1rem);
+}
+
+/* Footer Container Image */
+.footer-container > img {
+  width: calc((150 / 16) * 1rem);
+  margin-bottom: calc((25 / 16) * 1rem);
+}
+
+/* Footer About Section */
+.footer__about {
+  margin-bottom: calc((50 / 16) * 1rem);
+}
+
+.footer__about-grid {
+  display: grid;
+  grid-template-columns: calc((15 / 16) * 1rem) 1fr;
+  row-gap: calc((20 / 16) * 1rem);
+  column-gap: calc((25 / 16) * 1rem);
+}
+
+.footer__about-grid > img {
+  width: 100%;
+  align-self: center;
+}
+
+.footer__about-grid > img:first-of-type {
+  width: 90%;
+  margin-top: calc((7 / 16) * 1rem);
+  align-self: start;
+}
+
+/* Footer Navigation */
+.footer__nav {
+  margin-bottom: calc((50 / 16) * 1rem);
+}
+
+.footer__nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: calc((20 / 16) * 1rem);
+}
+
+.footer__nav a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+.footer__nav a:hover,
+.footer__nav a:active {
+  border-bottom: calc((1.5 / 16) * 1rem) solid var(--white);
+}
+
+/* Footer Social & Copyright */
+.footer__social-copyright ul {
+  list-style: none;
+  margin-bottom: calc((25 / 16) * 1rem);
+  display: flex;
+  justify-content: center;
+  gap: calc((20 / 16) * 1rem);
+}
+
+.footer__social-copyright a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  height: calc((40 / 16) * 1rem);
+  width: calc((40 / 16) * 1rem);
+  color: var(--white);
+  border: calc((1.5 / 16) * 1rem) solid var(--white);
+  border-radius: 50%;
+}
+
+.footer__social-copyright a:hover,
+.footer__social-copyright a:active {
+  color: var(--pink);
+  border-color: var(--pink);
+}
+
+.footer__social-copyright p {
+  font-size: calc((13 / 16) * 1rem);
+  text-align: center;
+}
