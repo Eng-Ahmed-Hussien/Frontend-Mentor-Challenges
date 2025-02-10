@@ -1,0 +1,62 @@
+/**********************/
+/*     over 352px     */
+/**********************/
+@media only screen and (min-width: 22em) {
+}
+
+/**********************/
+/*     over 384px     */
+/**********************/
+@media only screen and (min-width: 24em) {
+}
+
+/**********************/
+/*     over 448px     */
+/*    FOOTER QUERY    */
+/**********************/
+@media (min-width: 28em) {
+  /* Main */
+  main {
+    min-height: calc(100vh - calc((70 / 16) * 1rem));
+  }
+
+  /* Footer */
+  footer {
+    height: calc((70 / 16) * 1rem);
+
+    flex-direction: row;
+    gap: calc((10 / 16) * 1rem);
+  }
+
+  .boxv {
+    display: inline;
+  }
+}
+
+/**********************/
+/*     over 480px     */
+/**********************/
+@media only screen and (min-width: 30em) {
+}
+
+/**********************/
+/*     over 640px     */
+/**********************/
+@media only screen and (min-width: 40em) {
+  /* Main */
+  main {
+    background-image: url(../images/background-pattern-desktop.svg);
+  }
+}
+
+/***********************/
+/*     over 992px     */
+/***********************/
+@media only screen and (min-width: 62em) {
+}
+
+/***********************/
+/*     over 1120px     */
+/***********************/
+@media only screen and (min-width: 70em) {
+}
