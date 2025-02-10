@@ -1,0 +1,57 @@
+/**********************/
+/*     over 480px     */
+/**********************/
+@media only screen and (min-width: 30em) {
+}
+
+/**********************/
+/*     over 640px     */
+/**********************/
+@media only screen and (min-width: 41em) {
+  .card-container {
+    max-width: 64rem;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .title-section {
+    grid-column: 1 / -1;
+  }
+}
+
+/**********************/
+/*     over 928px     */
+/**********************/
+@media only screen and (min-width: 58em) {
+}
+
+/***********************/
+/*     over 1120px     */
+/***********************/
+@media only screen and (min-width: 70em) {
+}
+
+/**********************/
+/* Very small screens */
+/*     under 368px    */
+/**********************/
+@media (max-width: 23em) {
+  main {
+    padding: 0;
+  }
+}
+
+/**********************/
+/* Footer media query */
+/**********************/
+@media (max-width: 23em) {
+  footer {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .boxv {
+    display: none;
+  }
+}
