@@ -6,7 +6,7 @@ This is a solution to the [Rest Countries API App challenge on Frontend Mentor](
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [screenshots](#screenshots)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -25,14 +25,23 @@ Users should be able to:
 - Click on a country to see detailed information including native name, sub-region, top-level domain, currencies, languages, and a map view.
 - Toggle between dark and light mode.
 
-### Screenshot
+### Screenshots
 
-![Screenshot](./images/Screenshot.png)
+<div style="display: flex; justify-content: space-between; align-items: center; width: 100%; height: 𝟲𝟬𝟬𝗽𝘅;">
+  <figure style="flex: 1; text-align: center; margin: 0 1rem;">
+    <figcaption>𝗟𝗶𝗴𝗵𝗧 𝗠𝗼𝗱𝗲</figcaption>
+    <img src="./screens/light-screen.jpeg" alt="Light Mode" style="width: 100%; max-width: 400px;" />
+  </figure>
+  <figure style="flex: 1; text-align: center; margin: 0 1rem;">
+    <figcaption>𝗗𝗮𝗿𝗸 𝗠𝗼𝗱𝗲</figcaption>
+    <img src="./screens/dark-screen.jpeg" alt="Dark Mode" style="width: 100%; max-width: 400px;" />
+  </figure>
+</div>
 
 ### Links
 
-- **Solution URL:** [https://github.com/YourGitHubUsername/Rest-Countries-API-App](https://github.com/YourGitHubUsername/Rest-Countries-API-App)
-- **Live Site URL:** [https://yourusername.github.io/Rest-Countries-API-App/](https://yourusername.github.io/Rest-Countries-API-App/)
+- **Solution URL:** [https://github.com/Eng-Ahmed-Hussien/Frontend-Mentor-Challenges/tree/main/Rest-countries-Api](https://github.com/Eng-Ahmed-Hussien/Frontend-Mentor-Challenges/tree/main/Rest-countries-Api)
+- **Live Site URL:** [https://eng-ahmed-hussien.github.io/Frontend-Mentor-Challenges/Rest-countries-Api/](https://eng-ahmed-hussien.github.io/Frontend-Mentor-Challenges/Rest-countries-Api/)
 
 ## My process
 
